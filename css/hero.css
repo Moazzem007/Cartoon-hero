@@ -34,7 +34,21 @@ main{
 }
 
 main img{
-	max-width: 100%;
+	float: left;
+	width: 23%;
+	padding: 5px;
+	height: 300px;
+	outline:2px solid #DDD;
+  border:#a1a1a1;
+  float:left;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+main img:hover{
+	cursor:pointer;
+    margin-top: 5px;
 }
 
 h2{
@@ -42,6 +56,7 @@ h2{
 	color: #e70c19;
 	margin: 40px 0 10px;
 }
+
 
 a{
 	color: #e70c17;
